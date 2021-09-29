@@ -1,0 +1,39 @@
+baseURL = "https://hancheol.github.io/"
+languageCode = "en-us"
+title = "Choi's Blog"
+theme = "cactus"
+license = "MIT"
+
+[author]
+    name = "Hancheol Choi"
+    homepage = "https://hancheol.github.io"
+
+[params]
+  colortheme = "dark"
+  mainSection = "posts"
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+  tagsOverview = true
+  tocInline = true
+  
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
