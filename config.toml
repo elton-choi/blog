@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Choi's Blog"
 theme = "cactus"
 license = "MIT"
+publishDir = "public/docs"
 
 [author]
     name = "Hancheol Choi"
