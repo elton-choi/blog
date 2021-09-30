@@ -1,4 +1,4 @@
-baseURL = "https://hancheol.github.io/"
+baseURL = "https://elton-choi.github.io/"
 languageCode = "en-us"
 title = "Choi's Blog"
 theme = "cactus"
@@ -7,7 +7,7 @@ publishDir = "public/docs"
 
 [author]
     name = "Hancheol Choi"
-    homepage = "https://hancheol.github.io"
+    homepage = "https://elton-choi.github.io/"
 
 [params]
   colortheme = "dark"
