@@ -3,4 +3,5 @@
 	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
 [submodule "public"]
 	path = public
-	url = https://github.com/elton-choi/hancheol.github.io.git
+	url = https://github.com/elton-choi/elton-choi.github.io.git
+	branch = main
