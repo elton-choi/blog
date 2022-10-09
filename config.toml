@@ -77,9 +77,9 @@ weight = 4
       label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
       theme = "github-light"
     [params.comments.cactuscomments]
-      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
-      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
-      #serverName = "" # Defaults to cactus.chat
+      siteName = "https://elton-choi.github.io/" # see https://cactus.chat/ on how to register your site name
+      #serverUrl = "https://matrix.cactus.chat:8448" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+      #serverName = "cactus.chat" # Defaults to cactus.chat
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
