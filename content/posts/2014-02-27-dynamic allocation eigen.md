@@ -2,8 +2,8 @@
 title: "Dynamic allocation of Eigen in hard-real time environment"
 date: 2014-02-27T21:48:13+09:00
 categories:
-- category
-- subcategory
+- programming
+- c++
 tags:
 - rtos
 - eigen

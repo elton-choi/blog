@@ -1,8 +1,8 @@
 baseURL = "https://elton-choi.github.io"
 languageCode = "en-us"
-title = "Choi's Blog"
+title = "Choi's Blog about Robotics"
 theme = "cactus"
-copyright = "You" # cactus will use title if copyright is not set
+copyright = "Hancheol Choi" # cactus will use title if copyright is not set
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
@@ -48,18 +48,18 @@ weight = 4
 
 [params]
 
-  colortheme = "dark" # dark, light, white, or classic
+  colortheme = "classic" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Robotics and My Life"
+  description = "Notes for things while researching control, motion planning, model identification, and machine learning."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
+  tagsOverview = false # show tags overview by default.
+  showProjectsList = false # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/elton-choi" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
@@ -71,9 +71,9 @@ weight = 4
 
   [params.comments]
     enabled = true # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+    engine = "utterances" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
-      repo = "<github_username>/<github_reponame>"
+      repo = "elton-choi/blog-comments"
       label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
       theme = "github-light"
     [params.comments.cactuscomments]
