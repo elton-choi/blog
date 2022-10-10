@@ -9,6 +9,11 @@ keywords:
 - mujoco
 #thumbnailImage: //example.com/image.jpg
 ---
+
+Mujoco is a physics-engine which efficiently simulates multi-body dynamics with contacts. It became famous when it started to be used frequently in the reinforcement learning communities. Especially, OpenAI used this engine in their openai-gym.
+
+Now, Deepmind is managing the development of this library, and made it to be used for free.
+
 # Main Features
 
 - **M**ulti-**J**oint dynamics with **C**ontact
@@ -49,15 +54,22 @@ or you can put library file together with your execution file.
 ```
 
 ## **Simple Tutorial**
+Deepmind provides [mujoco documentation](https://mujoco.org/) officially. But, it's like dictionary; not easy to start with this!
+
+Fortunately, Pranav Bhounsule in the UNIVERSITY of ILLINOIS CHICAGO provides fantastic lectures about mujoco.(He also provides various valuable lectures on robotics and control..) We can start with this step-by-step.
 
 {{< youtubepl "PLc7bpbeTIk758Ad3fkSywdxHWpBh9PM0G" >}}
 
 
 # Python Bindings
 
-Mujoco provides python bindings officially supported from 2.1.2.
+Mujoco provides python bindings officially supported by Deepmind from 2.1.2.
 
-Before this, there are previous python bindings such as mujoco-py not officially supported.
+Before this, there was the previous python bindings named as [mujoco-py](https://github.com/openai/mujoco-py) managed by OpenAI. Of course, there were more getting started tutorials about mujoco-py.
+
+However, thankfully, Prannav Bhounsule also started to provide lectures on official mujoco python bindings. 
+
+{{< youtubepl "PLc7bpbeTIk75dgBVd07z6_uKN1KQkwFRK" >}}
 
 ## Install
 
@@ -66,7 +78,9 @@ pip install mujoco
 ```
 
 ## **Simple Example**
-[https://github.com/BolunDai0216/PyMuJoCoBase](https://github.com/BolunDai0216/PyMuJoCoBase)
+[https://github.com/BolunDai0216/PyMuJoCoBase](https://github.com/BolunDai0216/PyMuJoCoBase) uploaded starter code and examples inspired by the C code developed by Prannav Bhounsule's MuJoCo Bootcamp. (Before Prannav developed lectures of python-version)
+
+With this reference, I write down the simplest bone for minimum simulation.
 
 ```bash
 import mujoco
@@ -111,8 +125,6 @@ while(not glfw.window_should_close(window)):
 
 glfw.terminate()
 ```
-## Simple Tutorial
-{{< youtubepl "PLc7bpbeTIk75dgBVd07z6_uKN1KQkwFRK" >}}
 
 # Reference
 
