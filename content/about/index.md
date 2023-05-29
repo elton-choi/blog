@@ -2,9 +2,9 @@
 title: About me
 date: 2022-09-17T12:23:37+09:00
 ---
-I'm a Robotics Research Engineer in the South-Korea. I'm working on motion planning and control, model identification of robot arms. I want to push my boundaries further with mobile-manipulation, legged robotics and future-actuator platform on the hardware side, and machine learning on the software side.
+I am a Robotics Research Engineer in South Korea, specializing in motion planning, control, and model identification of robot arms. I am eager to expand my expertise in areas such as mobile manipulation, legged robotics, and future actuator platforms on the hardware side, as well as machine learning on the software side. My goal is to push my boundaries and contribute to advancements in these fields.
 
-I love explaining and sharing fundamental priciples from complicated engineering. I believe that if I can't explain something easily, it means I don't fully understand it. I think this applies not only to me.
+I love explaining and sharing fundamental priciples beyond complicated engineering. I believe that if I can't explain something easily, it means I don't fully understand it. I think this applies not only to me but also to everyone.
 
 [LinkdIn](https://www.linkedin.com/in/hancheol-choi/) 
 [Github](https://github.com/elton-choi)

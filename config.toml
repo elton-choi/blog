@@ -54,7 +54,7 @@ weight = 4
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Notes for things while researching control, motion planning, model identification, and machine learning."
+  description = "Research Notes for control, motion planning, model identification, and machine learning in robotics."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
